@@ -13,7 +13,7 @@ Taking into account that the NSGI-LD API does not have the functionality to stor
 
 ```mermaid
 graph TD;
-    "Static FIles"-->Bucket;
-    Bucket--> Entity;
-    Entity->ORION-LD;
+    Static_FIles-->Bucket;
+    Bucket-->Entity;
+    Entity-->ORION-LD;
 ```
