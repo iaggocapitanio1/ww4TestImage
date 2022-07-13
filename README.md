@@ -10,9 +10,10 @@ graph TD;
 
 The main idea to save the images would be to use a server (node, django, ...) responsible for saving the images of a project. 
 Taking into account that the NSGI-LD API does not have the functionality to store images, in this way the static files would be stored on this server and would be responsible for creating an entity in Orion and presenting a link that points to this web server made in (node , django, ...)
+
 ```mermaid
 graph TD;
-    Static FIles--Bucket;
+    Static_FIles--Bucket;
     Bucket--> Entity;
     Entity->ORION-LD;
 ```
