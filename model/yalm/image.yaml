@@ -1,0 +1,6 @@
+image:
+    type: strig 
+    format: url 
+    $ref: https://schema.org/image
+  required:
+    
