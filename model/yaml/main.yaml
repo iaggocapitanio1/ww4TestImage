@@ -14,26 +14,12 @@ info:
   
 components:
   schemas: 
-    Organization:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/organization.yaml#/organization"
-    Project:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/project.yaml#/project"
     Owner:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/owner.yaml#/owner"
-    Worker:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/worker.yaml#/worker"
-    Consumable:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/consumable.yaml#/consumable"
+      $ref: "https://raw.githubusercontent.com/iaggocapitanio1/ww4TestImage/main/model/yaml/owner.yaml#owner"
+    Project:
+      $ref: "https://raw.githubusercontent.com/iaggocapitanio1/ww4TestImage/main/model/yaml/project.yaml#project"
     Part:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/part.yaml#/part"
-    Action:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/action.yaml#/action"
-    Assembly:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/assembly.yaml#/assembly"
-    Budget:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/budget.yaml#/budget"
-    expedition:
-      $ref: "https://raw.githubusercontent.com/More-Collaborative-Laboratory/ww4zero/main/expedition.yaml#/expeditionDate"
+      $ref: "https://raw.githubusercontent.com/iaggocapitanio1/ww4TestImage/main/model/yaml/part.yaml#part"
 
 
 paths:
