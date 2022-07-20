@@ -225,7 +225,7 @@ part:
           uri-prefix: "https://projectww4zero.pt/dataModel/"
           type: Relationship 
       image:
-         type: strig 
+         type: string
          format: url 
          $ref: https://schema.org/image
       

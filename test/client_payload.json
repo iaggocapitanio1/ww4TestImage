@@ -1,0 +1,31 @@
+{
+    "id": "urn:ngsi-ld:Owner:002",
+    "type": "Owner",
+    "clientTypeInstitution": {
+        "type": "Property",
+        "value": "Institucional"
+    },
+    "legalName": {
+        "type": "Property",
+        "value": "Mayer Interiors"
+    },
+    "address": {
+        "type": "Property",
+        "value": "171 Rue St Sauveur, 06110 Le Cannet"
+    },
+    "email": {
+        "type": "Property",
+        "value": "contact@mayerinteriors.com"
+    },
+    "telephone": {
+        "type": "Property",
+        "value": "+33 (0) 4 92 92 92 96"
+    },
+    "hasOrganization": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Mofreita"
+    },
+    "@context": [
+        "http://localhost:3004/json-context.jsonld"
+    ]
+}
