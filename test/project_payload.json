@@ -1,0 +1,32 @@
+{
+    "id": "urn:ngsi-ld:Project:003",
+    "type": "Project",
+    "name": {
+        "type": "Property",
+        "value": "LISTA_DE_CORTE_MC_MUEBLETV_A - 1"
+    },
+    "category": {
+        "type": "Property",
+        "value": "Living Room"
+    },
+    "status": {
+        "type": "Property",
+        "value": "waiting"
+    },
+    "producedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Worker:4"
+    },
+    "orderBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Owner:001"
+    },
+    "observedAt": {
+        "type": "Property",
+        "value": "01/04/2022 09:00"
+    },
+
+    "@context": [
+         "http://context/json-context.jsonld"
+    ]
+}

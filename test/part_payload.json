@@ -1,0 +1,96 @@
+{
+    "id": "urn:ngsi-ld:Part:001",
+    "type": "Part",
+    "partName": {
+        "type": "Property",
+        "value": "MC_MUEBLETV_A2_GAV_DIR_FUNDO"
+    },
+    "sort": {
+        "type": "Property",
+        "value": "AG L Biscuit Nude 36W 10"
+    },
+    "material": {
+        "type": "Property",
+        "value": "AG L Biscuit Nude 36W 10"
+    },
+    "amount": {
+        "type": "Property",
+        "value": 1
+    },
+    "length": {
+        "type": "Property",
+        "value": 400
+    },
+    "width": {
+        "type": "Property",
+        "value": 338.5
+    },
+    "thickness": {
+        "type": "Property",
+        "value": 10
+    },
+    "tag": {
+        "type": "Property",
+        "value": 1
+    },
+    "nestingFlag": {
+        "type": "Property",
+        "value": "False"
+    },
+    "cncFlag": {
+        "type": "Property",
+        "value": "False"
+    },
+    "tupia": {
+        "type": "Property",
+        "value": "False"
+    },
+    "o2": {
+        "type": "Property",
+        "value": "False"
+    },
+    "o3": {
+        "type": "Property",
+        "value": "False"
+    },
+    "o4": {
+        "type": "Property",
+        "value": "False"
+    },
+    "o5": {
+        "type": "Property",
+        "value": "False"
+    },
+    "f2": {
+        "type": "Property",
+        "value": 0
+    },
+    "f3": {
+        "type": "Property",
+        "value": 0
+    },
+    "f4": {
+        "type": "Property",
+        "value": 0
+    },
+    "f5": {
+        "type": "Property",
+        "value": 0
+    },
+    "obs": {
+        "type": "Property",
+        "value": "EX: reforçar o opoio das dobradiças"
+    },
+    "belongsTo": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Project:001"
+    },
+    "observedAt": {
+        "type": "Property",
+        "value": "01/04/2022 09:00"
+    },
+
+    "@context": [
+        "http://context/json-context.jsonld"
+    ]
+}

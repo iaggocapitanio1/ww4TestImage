@@ -35,12 +35,12 @@ case "${command}" in
 		;;
 	"ngsi")
 		echo "Creating a NGSI-LD @context file for normalized interactions"
-		docker run --rm -v $(pwd)/:/files contextgen ngsi -i "/files/${file}" > $(pwd)/ngsi/datamodels.context-ngsi.jsonld
+		docker run --rm -v $(pwd)/:/files contextgen ngsi -i "/files/${file}" > $(pwd)/ngsi/ngsi-context.jsonld
 		echo "datamodels.context-ngsi.jsonld created"
 		;;
 	"jsonld")
 		echo "Creating a JSON-LD @context file for key-values interactions"
-		docker run --rm -v $(pwd)/:/files contextgen jsonld -i "/files/${file}" > $(pwd)/jsonld/datamodels.context.jsonld
+		docker run --rm -v $(pwd)/:/files contextgen jsonld -i "/files/${file}" > $(pwd)/jsonld/json-context.jsonld
 		echo "datamodels.context.jsonld created"
 		;;
 	"validate")

@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:Owner:002",
+    "id": "urn:ngsi-ld:Owner:005",
     "type": "Owner",
     "clientTypeInstitution": {
         "type": "Property",
@@ -26,6 +26,6 @@
         "object": "urn:ngsi-ld:Mofreita"
     },
     "@context": [
-        "http://localhost:3004/json-context.jsonld"
+        "http://context/json-context.jsonld"
     ]
 }
